@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>5</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1,1,1,1,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2640" y="-5160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>In_1</string>
+            <string>In_4</string>
+            <string>In_3</string>
+          </inverterConfig>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2580" y="-4780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>A1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2640" y="-5200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2400" y="-4780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>CLK</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-2480" y="-5200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>WD3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2440" y="-5200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>In_1</string>
+            <string>In_5</string>
+            <string>In_2</string>
+          </inverterConfig>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2580" y="-4900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2400" y="-4900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Multiplexer</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>5</int>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="-2220" y="-5160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RD1</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2140" y="-4840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5080"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5060"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-5000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4860"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-2240" y="-4920"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-2680" y="-4740"/>
+      <p2 x="-2600" y="-4740"/>
+    </wire>
+    <wire>
+      <p1 x="-2500" y="-4740"/>
+      <p2 x="-2400" y="-4740"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4740"/>
+      <p2 x="-2220" y="-4740"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5060"/>
+      <p2 x="-2220" y="-5060"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4680"/>
+      <p2 x="-2220" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5000"/>
+      <p2 x="-2220" y="-5000"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4620"/>
+      <p2 x="-2220" y="-4620"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4940"/>
+      <p2 x="-2220" y="-4940"/>
+    </wire>
+    <wire>
+      <p1 x="-2700" y="-4880"/>
+      <p2 x="-2600" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2480" y="-4880"/>
+      <p2 x="-2400" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2340" y="-4880"/>
+      <p2 x="-2320" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4880"/>
+      <p2 x="-2220" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4560"/>
+      <p2 x="-2220" y="-4560"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-4820"/>
+      <p2 x="-2600" y="-4820"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4820"/>
+      <p2 x="-2220" y="-4820"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5140"/>
+      <p2 x="-2220" y="-5140"/>
+    </wire>
+    <wire>
+      <p1 x="-2700" y="-4760"/>
+      <p2 x="-2580" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2480" y="-4760"/>
+      <p2 x="-2400" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2340" y="-4760"/>
+      <p2 x="-2300" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4760"/>
+      <p2 x="-2220" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5080"/>
+      <p2 x="-2220" y="-5080"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-4700"/>
+      <p2 x="-2580" y="-4700"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4700"/>
+      <p2 x="-2220" y="-4700"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5020"/>
+      <p2 x="-2220" y="-5020"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4640"/>
+      <p2 x="-2220" y="-4640"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4960"/>
+      <p2 x="-2220" y="-4960"/>
+    </wire>
+    <wire>
+      <p1 x="-2720" y="-4900"/>
+      <p2 x="-2600" y="-4900"/>
+    </wire>
+    <wire>
+      <p1 x="-2440" y="-4900"/>
+      <p2 x="-2400" y="-4900"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4900"/>
+      <p2 x="-2220" y="-4900"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4580"/>
+      <p2 x="-2220" y="-4580"/>
+    </wire>
+    <wire>
+      <p1 x="-2660" y="-4840"/>
+      <p2 x="-2580" y="-4840"/>
+    </wire>
+    <wire>
+      <p1 x="-2180" y="-4840"/>
+      <p2 x="-2140" y="-4840"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4840"/>
+      <p2 x="-2220" y="-4840"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5160"/>
+      <p2 x="-2220" y="-5160"/>
+    </wire>
+    <wire>
+      <p1 x="-2720" y="-4780"/>
+      <p2 x="-2600" y="-4780"/>
+    </wire>
+    <wire>
+      <p1 x="-2440" y="-4780"/>
+      <p2 x="-2400" y="-4780"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4780"/>
+      <p2 x="-2220" y="-4780"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5100"/>
+      <p2 x="-2220" y="-5100"/>
+    </wire>
+    <wire>
+      <p1 x="-2660" y="-4720"/>
+      <p2 x="-2600" y="-4720"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4720"/>
+      <p2 x="-2220" y="-4720"/>
+    </wire>
+    <wire>
+      <p1 x="-2320" y="-5040"/>
+      <p2 x="-2220" y="-5040"/>
+    </wire>
+    <wire>
+      <p1 x="-2300" y="-4980"/>
+      <p2 x="-2220" y="-4980"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4660"/>
+      <p2 x="-2220" y="-4660"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4600"/>
+      <p2 x="-2220" y="-4600"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4920"/>
+      <p2 x="-2220" y="-4920"/>
+    </wire>
+    <wire>
+      <p1 x="-2680" y="-4860"/>
+      <p2 x="-2580" y="-4860"/>
+    </wire>
+    <wire>
+      <p1 x="-2500" y="-4860"/>
+      <p2 x="-2400" y="-4860"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4860"/>
+      <p2 x="-2220" y="-4860"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-5180"/>
+      <p2 x="-2200" y="-5180"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4540"/>
+      <p2 x="-2220" y="-4540"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-4800"/>
+      <p2 x="-2220" y="-4800"/>
+    </wire>
+    <wire>
+      <p1 x="-2240" y="-5120"/>
+      <p2 x="-2220" y="-5120"/>
+    </wire>
+    <wire>
+      <p1 x="-2660" y="-5140"/>
+      <p2 x="-2660" y="-4840"/>
+    </wire>
+    <wire>
+      <p1 x="-2660" y="-4840"/>
+      <p2 x="-2660" y="-4720"/>
+    </wire>
+    <wire>
+      <p1 x="-2660" y="-4720"/>
+      <p2 x="-2660" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2680" y="-5140"/>
+      <p2 x="-2680" y="-4860"/>
+    </wire>
+    <wire>
+      <p1 x="-2680" y="-4740"/>
+      <p2 x="-2680" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2680" y="-4860"/>
+      <p2 x="-2680" y="-4740"/>
+    </wire>
+    <wire>
+      <p1 x="-2440" y="-5200"/>
+      <p2 x="-2440" y="-4900"/>
+    </wire>
+    <wire>
+      <p1 x="-2440" y="-4900"/>
+      <p2 x="-2440" y="-4780"/>
+    </wire>
+    <wire>
+      <p1 x="-2200" y="-5180"/>
+      <p2 x="-2200" y="-5160"/>
+    </wire>
+    <wire>
+      <p1 x="-2700" y="-5140"/>
+      <p2 x="-2700" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2700" y="-4880"/>
+      <p2 x="-2700" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2700" y="-4760"/>
+      <p2 x="-2700" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2300" y="-4980"/>
+      <p2 x="-2300" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2480" y="-5200"/>
+      <p2 x="-2480" y="-4880"/>
+    </wire>
+    <wire>
+      <p1 x="-2480" y="-4880"/>
+      <p2 x="-2480" y="-4760"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-5200"/>
+      <p2 x="-2640" y="-5180"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-5140"/>
+      <p2 x="-2640" y="-4820"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-4700"/>
+      <p2 x="-2640" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-4820"/>
+      <p2 x="-2640" y="-4700"/>
+    </wire>
+    <wire>
+      <p1 x="-2640" y="-5180"/>
+      <p2 x="-2640" y="-5160"/>
+    </wire>
+    <wire>
+      <p1 x="-2720" y="-5140"/>
+      <p2 x="-2720" y="-4900"/>
+    </wire>
+    <wire>
+      <p1 x="-2720" y="-4780"/>
+      <p2 x="-2720" y="-4680"/>
+    </wire>
+    <wire>
+      <p1 x="-2720" y="-4900"/>
+      <p2 x="-2720" y="-4780"/>
+    </wire>
+    <wire>
+      <p1 x="-2320" y="-5040"/>
+      <p2 x="-2320" y="-4880"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
